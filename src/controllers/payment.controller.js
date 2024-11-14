@@ -62,11 +62,11 @@ const capturePayment = async (req, res) => {
 
     console.log(response.data);
 
-    return res.redirect('http://localhost:5173');
+    return res.redirect('https://guitar-back-production.up.railway.app');
 };
 
 const cancelPayment = (req, res) => {
-    return res.redirect('http://localhost:5173');
+    return res.redirect('https://guitar-back-production.up.railway.app');
 };
 
 export {
